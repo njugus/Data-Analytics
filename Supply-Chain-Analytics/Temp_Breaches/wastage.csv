@@ -1,0 +1,12 @@
+delivery_id,doses_wasted,wastage_reason
+D01,45,temperature damage
+D03,120,temperature damage
+D04,20,expired
+D06,85,temperature damage
+D07,110,temperature damage
+D09,200,temperature damage
+D13,35,temperature damage
+D16,40,temperature damage
+D17,95,temperature damage
+D18,15,other
+D20,10,expired

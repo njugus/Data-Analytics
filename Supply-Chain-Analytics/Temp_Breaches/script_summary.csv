@@ -1,0 +1,9 @@
+delivery_id,district,vaccine_type,doses_received,delivery_date,breach_counts,doses_wasted,wastage_reason,wastage_rate
+D09,Bungoma,Measles,620,2025-01-20,2.0,200.0,temperature damage,32.3
+D07,Bungoma,BCG,520,2025-01-20,1.0,110.0,temperature damage,21.2
+D03,Migori,Measles,600,2025-01-15,2.0,120.0,temperature damage,20.0
+D17,Bungoma,BCG,490,2025-02-25,1.0,95.0,temperature damage,19.4
+D06,Kisii,Measles,550,2025-02-10,1.0,85.0,temperature damage,15.5
+D01,Migori,BCG,500,2025-01-15,1.0,45.0,temperature damage,9.0
+D13,Migori,BCG,480,2025-02-20,1.0,35.0,temperature damage,7.3
+D16,Kisii,Measles,580,2025-03-05,1.0,40.0,temperature damage,6.9
