@@ -37,4 +37,35 @@ supplier_stats = df.groupby('supplier').agg(
     lead_time_deviation = ("lead_time", "std")
 ).reset_index()
 
+# lets create the supplier scoring model
+# normalize the supplier metrics to a 0 - 100 scale
+order_fill_rate = supplier_stats['avg_fill_rate']
+# the longest time it took to fulfill an order 
+
+# lead time score
+max_lead_time = supplier_stats['avg_lead_time'].max()
+min_lead_time = supplier_stats['avg_lead_time'].min()
+lead_time_score = 100 * (max_lead_time - supplier_stats['avg_lead_time']) / (max_lead_time - min_lead_time)
+supplier_stats['lead_time_score'] = lead_time_score
+
+# standard deviation score
+max_std = supplier_stats['lead_time_deviation'].max()
+min_std = supplier_stats['lead_time_deviation'].min()
+std_score = 100 * (max_std - supplier_stats['lead_time_deviation']) / (max_std - min_std)
+supplier_stats['std_score'] = std_score
+
+# define the balanced score model for evaluating the supplier performance
+weighted_score = {
+    "fill_rate" : 0.40,
+    "lead_time" : 0.35,
+    "std_dev" : 0.25
+}
+
+# calculate the scores for each supplier
+supplier_stats['supplier_reliability_score'] = (
+    (lead_time_score * weighted_score['lead_time']) + 
+    (order_fill_rate  * weighted_score['fill_rate']) + 
+    (std_score * weighted_score['std_dev'])
+)
+
 print(supplier_stats.to_string())
