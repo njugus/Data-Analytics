@@ -1,7 +1,12 @@
 Entire Workflow
+0. Visualize the Relationship between the tables
+- A customer has multiple orders - one to many
+- An order has multiple products - one to many
+- An order has a payment method linked to it - one to one
 
 1. Clean the Data
 - check for null values.
 - check for correct datatypes.
-- check for consistent label names especially for categories
-- check for duplicate values where we expect unique values(repeated records)
+- check for consistent label names especially for categories.
+- check for duplicate values where we expect unique values(repeated records).
+- key checkpoint - As you convert str dates to datetime format, remove hidden characters using strip() and then specify the format of the str date which tells pandas how to handle the date - this will save you time cleaning dates.
