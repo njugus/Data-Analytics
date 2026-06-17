@@ -1,0 +1,121 @@
+product_id,product_name,category,price,stock
+1,"Python Hoodie",Clothing,1999.00,50
+2,"Java Hoodie",Clothing,1899.00,40
+3,"Debugging Mug",Accessories,599.00,100
+4,"Code Like a Pro Mug",Accessories,649.00,80
+5,"DSA Notebook",Stationery,499.00,150
+6,"SQL Cheat Sheet",Stationery,299.00,200
+7,"Sticker Pack",Stationery,249.00,300
+8,"Algorithm T-Shirt",Clothing,1499.00,60
+9,"GitHub Cap",Accessories,799.00,70
+10,"Keyboard Mat",Accessories,999.00,90
+11,"Linux Hoodie",Clothing,2099.00,35
+12,"AI Nerd T-Shirt",Clothing,1599.00,55
+13,"Whiteboard Notebook",Stationery,699.00,120
+14,"Bug Hunter Mug",Accessories,549.00,100
+15,"Terminal Stickers",Stationery,199.00,250
+16,"Coder Bottle",Accessories,899.00,110
+17,"Late Night Hoodie",Clothing,2199.00,30
+18,"Python Socks",Accessories,399.00,140
+19,"DSA Flash Cards",Stationery,349.00,180
+20,"Clean Code Notebook",Stationery,599.00,130
+21,"Python Hoodie",Clothing,1999.00,50
+22,"Java Hoodie",Clothing,1899.00,40
+23,"Debugging Mug",Accessories,599.00,100
+24,"Code Like a Pro Mug",Accessories,649.00,80
+25,"DSA Notebook",Stationery,499.00,150
+26,"SQL Cheat Sheet",Stationery,299.00,200
+27,"Sticker Pack",Stationery,249.00,300
+28,"Algorithm T-Shirt",Clothing,1499.00,60
+29,"GitHub Cap",Accessories,799.00,70
+30,"Keyboard Mat",Accessories,999.00,90
+31,"Linux Hoodie",Clothing,2099.00,35
+32,"AI Nerd T-Shirt",Clothing,1599.00,55
+33,"Whiteboard Notebook",Stationery,699.00,120
+34,"Bug Hunter Mug",Accessories,549.00,100
+35,"Terminal Stickers",Stationery,199.00,250
+36,"Coder Bottle",Accessories,899.00,110
+37,"Late Night Hoodie",Clothing,2199.00,30
+38,"Python Socks",Accessories,399.00,140
+39,"DSA Flash Cards",Stationery,349.00,180
+40,"Clean Code Notebook",Stationery,599.00,130
+41,"Python Hoodie",Clothing,1999.00,50
+42,"Java Hoodie",Clothing,1899.00,40
+43,"Debugging Mug",Accessories,599.00,100
+44,"Code Like a Pro Mug",Accessories,649.00,80
+45,"DSA Notebook",Stationery,499.00,150
+46,"SQL Cheat Sheet",Stationery,299.00,200
+47,"Sticker Pack",Stationery,249.00,300
+48,"Algorithm T-Shirt",Clothing,1499.00,60
+49,"GitHub Cap",Accessories,799.00,70
+50,"Keyboard Mat",Accessories,999.00,90
+51,"Linux Hoodie",Clothing,2099.00,35
+52,"AI Nerd T-Shirt",Clothing,1599.00,55
+53,"Whiteboard Notebook",Stationery,699.00,120
+54,"Bug Hunter Mug",Accessories,549.00,100
+55,"Terminal Stickers",Stationery,199.00,250
+56,"Coder Bottle",Accessories,899.00,110
+57,"Late Night Hoodie",Clothing,2199.00,30
+58,"Python Socks",Accessories,399.00,140
+59,"DSA Flash Cards",Stationery,349.00,180
+60,"Clean Code Notebook",Stationery,599.00,130
+61,"Python Hoodie",Clothing,1999.00,50
+62,"Java Hoodie",Clothing,1899.00,40
+63,"Debugging Mug",Accessories,599.00,100
+64,"Code Like a Pro Mug",Accessories,649.00,80
+65,"DSA Notebook",Stationery,499.00,150
+66,"SQL Cheat Sheet",Stationery,299.00,200
+67,"Sticker Pack",Stationery,249.00,300
+68,"Algorithm T-Shirt",Clothing,1499.00,60
+69,"GitHub Cap",Accessories,799.00,70
+70,"Keyboard Mat",Accessories,999.00,90
+71,"Linux Hoodie",Clothing,2099.00,35
+72,"AI Nerd T-Shirt",Clothing,1599.00,55
+73,"Whiteboard Notebook",Stationery,699.00,120
+74,"Bug Hunter Mug",Accessories,549.00,100
+75,"Terminal Stickers",Stationery,199.00,250
+76,"Coder Bottle",Accessories,899.00,110
+77,"Late Night Hoodie",Clothing,2199.00,30
+78,"Python Socks",Accessories,399.00,140
+79,"DSA Flash Cards",Stationery,349.00,180
+80,"Clean Code Notebook",Stationery,599.00,130
+81,"Python Hoodie",Clothing,1999.00,50
+82,"Java Hoodie",Clothing,1899.00,40
+83,"Debugging Mug",Accessories,599.00,100
+84,"Code Like a Pro Mug",Accessories,649.00,80
+85,"DSA Notebook",Stationery,499.00,150
+86,"SQL Cheat Sheet",Stationery,299.00,200
+87,"Sticker Pack",Stationery,249.00,300
+88,"Algorithm T-Shirt",Clothing,1499.00,60
+89,"GitHub Cap",Accessories,799.00,70
+90,"Keyboard Mat",Accessories,999.00,90
+91,"Linux Hoodie",Clothing,2099.00,35
+92,"AI Nerd T-Shirt",Clothing,1599.00,55
+93,"Whiteboard Notebook",Stationery,699.00,120
+94,"Bug Hunter Mug",Accessories,549.00,100
+95,"Terminal Stickers",Stationery,199.00,250
+96,"Coder Bottle",Accessories,899.00,110
+97,"Late Night Hoodie",Clothing,2199.00,30
+98,"Python Socks",Accessories,399.00,140
+99,"DSA Flash Cards",Stationery,349.00,180
+100,"Clean Code Notebook",Stationery,599.00,130
+101,"Python Hoodie",Clothing,1999.00,50
+102,"Java Hoodie",Clothing,1899.00,40
+103,"Debugging Mug",Accessories,599.00,100
+104,"Code Like a Pro Mug",Accessories,649.00,80
+105,"DSA Notebook",Stationery,499.00,150
+106,"SQL Cheat Sheet",Stationery,299.00,200
+107,"Sticker Pack",Stationery,249.00,300
+108,"Algorithm T-Shirt",Clothing,1499.00,60
+109,"GitHub Cap",Accessories,799.00,70
+110,"Keyboard Mat",Accessories,999.00,90
+111,"Linux Hoodie",Clothing,2099.00,35
+112,"AI Nerd T-Shirt",Clothing,1599.00,55
+113,"Whiteboard Notebook",Stationery,699.00,120
+114,"Bug Hunter Mug",Accessories,549.00,100
+115,"Terminal Stickers",Stationery,199.00,250
+116,"Coder Bottle",Accessories,899.00,110
+117,"Late Night Hoodie",Clothing,2199.00,30
+118,"Python Socks",Accessories,399.00,140
+119,"DSA Flash Cards",Stationery,349.00,180
+120,"Clean Code Notebook",Stationery,599.00,130

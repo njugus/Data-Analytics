@@ -1,0 +1,21 @@
+customers_id,name,email,city,signup_date
+1,"Amit Sharma",amit@gmail.com,Delhi,2025-01-01
+2,"Neha Verma",neha@gmail.com,Mumbai,2025-01-02
+3,"Rahul Khan",rahul@gmail.com,Bangalore,2025-01-03
+4,"Pooja Nair",pooja@gmail.com,Chennai,2025-01-04
+5,"Rohit Gupta",rohit@gmail.com,Delhi,2025-01-05
+6,"Ananya Roy",ananya@gmail.com,Kolkata,2025-01-06
+7,"Karan Mehta",karan@gmail.com,Ahmedabad,2025-01-07
+8,"Simran Kaur",simran@gmail.com,Chandigarh,2025-01-08
+9,"Mohit Jain",mohit@gmail.com,Jaipur,2025-01-09
+10,"Sneha Patel",sneha@gmail.com,Surat,2025-01-10
+11,"Vikram Singh",vikram@gmail.com,Lucknow,2025-01-11
+12,"Alok Mishra",alok@gmail.com,Patna,2025-01-12
+13,"Nidhi Agarwal",nidhi@gmail.com,Noida,2025-01-13
+14,"Saurabh Verma",saurabh@gmail.com,Ghaziabad,2025-01-14
+15,"Riya Sen",riya@gmail.com,Pune,2025-01-15
+16,"Aditya Malhotra",aditya@gmail.com,Delhi,2025-01-16
+17,"Kritika Shah",kritika@gmail.com,Mumbai,2025-01-17
+18,"Yash Tiwari",yash@gmail.com,Kanpur,2025-01-18
+19,"Mehul Joshi",mehul@gmail.com,Vadodara,2025-01-19
+20,"Isha Kapoor",isha@gmail.com,Gurgaon,2025-01-20
