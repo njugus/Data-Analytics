@@ -1,0 +1,7 @@
+Entire Workflow
+
+1. Clean the Data
+- check for null values.
+- check for correct datatypes.
+- check for consistent label names especially for categories
+- check for duplicate values where we expect unique values(repeated records)
