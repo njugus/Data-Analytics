@@ -20,10 +20,10 @@ df['lead_time'] = (df['delivery_date'] - df['order_date']).dt.days
 df['order_fill_rate'] = ((df['quantity_delivered'] / df['quantity_ordered']) * 100).round(1)
 
 # filter by order_fill rate
-# filtered_df = df[df['order_fill_rate'] >= 100]
+filtered_df = df[df['order_fill_rate'] >= 100]
 
 # filter by supplier to get the supplier with the highest number of order fill rates across all medicines
-# dfx = filtered_df.groupby('supplier')['order_fill_rate'].count().reset_index()
+dfx = filtered_df.groupby('supplier')['order_fill_rate'].count().reset_index()
 
 # calculate the order_value_shortfall - the dffrence between the quantity ordered and quantity delivered to help
 # understand the supplier effectiveness in terms of delivering what is needed
@@ -48,7 +48,6 @@ supplier_stats = df.groupby('supplier').agg(
     total_value_shortfall = ("order_value_shortfall", 'sum')
 
 ).reset_index()
-
 
 # lets create the supplier scoring model
 # normalization method used - min-max method
